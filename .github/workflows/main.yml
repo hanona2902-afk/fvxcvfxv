@@ -1,5 +1,6 @@
-name: RDP
-  workflow_dispatch:
+name: RDP   
+
+workflow_dispatch:
 jobs:
   secure-rdp:
     runs-on: windows-latest
